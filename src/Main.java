@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println(person3.gen);*/
 
-        Film film1 = new Film();
+        /* Film film1 = new Film();
         film1.setTitlu("Avatar 2");
         film1.getTitlu();
         film1.rating = 7.9;
@@ -51,8 +51,18 @@ public class Main {
         System.out.println(film2.afiseazaRating());
 
         System.out.println(Film.afiseazaUnText());
-        afiseaza2();
+        afiseaza2(); */
 
+        // Tema 6
+
+        SmartphoneIOS smartphoneIOS = new SmartphoneIOS();
+        SmartphoneAndroid smartphoneAndroid = new SmartphoneAndroid();
+
+        smartphoneIOS.porneste();
+        smartphoneIOS.seOpreste();
+
+        smartphoneAndroid.porneste();
+        smartphoneAndroid.seOpreste();
     }
 
     public static void afiseaza2(){
